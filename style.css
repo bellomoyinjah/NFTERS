@@ -1,0 +1,285 @@
+body {
+  margin: 20px;
+}
+.nfters {
+  font-weight: 700;
+  font-size: 24px;
+  color: #3d00b7;
+}
+.ma1 {
+  font-weight: 500;
+  font-size: 16px;
+}
+.ma2 {
+  border-radius: 16px;
+  position: relative;
+}
+.ma3 {
+  position: absolute;
+  margin-left: -30px;
+}
+.ma4 {
+  padding: 5px 10px 5px 20px;
+  background-color: blue;
+  border-radius: 26px;
+}
+.ma5 {
+  border-radius: 26px;
+  border-color: blue;
+  border-style: solid;
+}
+.seperator {
+  width: 100%;
+  height: 5px;
+  background-color: grey;
+}
+.section1 {
+  display: inline-flex;
+  margin-top: 20px;
+  padding: 50px;
+}
+.section1_left {
+  width: 60%;
+}
+#s1h {
+  font-weight: 700;
+}
+.section1_left_cont {
+  width: 400px;
+}
+.section1_left_img {
+  position: absolute;
+  height: 300px;
+  margin-left: 50px;
+}
+.section1_left_img2 {
+  margin-left: 120px;
+  height: 250px;
+  position: absolute;
+  margin-top: 25px;
+}
+.section1_left_img3 {
+  margin-left: 200px;
+  height: 200px;
+  margin-top: 50px;
+}
+.section1_left_button {
+  background-color: blue;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#s1svg1 {
+  margin-left: -380px;
+  margin-top: 100px;
+  position: relative;
+  width: 100px;
+}
+#s1svg2 {
+  margin-left: -50px;
+  margin-top: -230px;
+  position: relative;
+  width: 150px;
+}
+#s1svg3 {
+  margin-left: -150px;
+  margin-top: -170px;
+  position: relative;
+  width: 110px;
+}
+#s1svg4 {
+  margin-left: -100px;
+  margin-top: 230px;
+  position: relative;
+  width: 230px;
+}
+
+.section2 {
+  width: 100%;
+  margin-top: 50px;
+  background-color: #d9e0ec;
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.section2b {
+  width: 300px;
+}
+#s2bsvg {
+  margin-left: -40px;
+}
+.section3 {
+  margin-top: 50px;
+  display: inline-flex;
+  gap: 50px;
+  padding: 50px;
+}
+#s31 {
+  margin-left: 150px;
+  width: 78px;
+}
+#s31a {
+  font-size: 12px;
+  margin-left: 150px;
+}
+#s32 {
+  position: absolute;
+}
+#s33 {
+  margin-left: 50px;
+}
+#s34 {
+  margin-top: 20px;
+}
+.section3_2a {
+  margin-bottom: 20px;display: inline-flex;
+}
+#s3_2a {
+  margin-right: 15px;
+}
+.section3_list {
+  list-style-type: none;
+  padding-inline-start: inherit;
+}
+
+.section4a {
+  background-color: #d9e0ec;
+  padding: 20px;
+}
+.section4 {
+  display: inline-flex;
+  gap: 20px;
+
+  margin-top: 50px;
+}
+.section4_1 {
+  display: inline-flex;
+  gap: 10px;
+}
+#s41right {
+  margin-bottom: 10px;
+}
+.section4_button {
+  border-color: #2639ed;
+  color: #2639ed;
+  margin-top: 30px;
+  font-size: 13px;
+  border-radius: 12px;
+}
+
+.section5 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 50px;
+}
+#s5i1 {
+  position: absolute;
+}
+#s5i2 {
+  margin-left: 400px;
+  margin-top: 130px;
+}
+#s5i3 {
+  margin-left: 110px;
+  margin-top: -50px;
+  position: relative;
+}
+#s5i4 {
+  margin-left: -50px;
+  margin-bottom: -300px;
+}
+#s5i5 {
+  margin-left: -50px;
+  margin-bottom: -250px;
+}
+#s5i6 {
+  margin-left: -50px;
+  margin-bottom: -200px;
+}
+.section5_right {
+  margin-top: 120px;
+}
+.section6 {
+  background-color: rgba(217, 224, 236, 0.2);
+  padding: 50px;
+}
+h3 {
+  font-weight: 700;
+}
+.section6_content {
+  display: inline-flex;
+  margin-top: 35px;
+  gap: 20px;
+}
+.section6_item {
+  background-color: white;
+  width: 260px;
+}
+#section6_img {
+  margin: 5px;
+}
+#s6lm {
+  margin-left: 15px;
+}
+#s6b {
+  border-radius: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+  padding: 0 15px;
+}
+#s6_filter {
+  color: #371c87;
+  font-weight: 500;
+  border-radius: 16px;
+  margin-left: 300px;
+}
+.section6_no {
+  margin-left: 120px;
+  font-size: 13px;
+}
+.section6_bid {
+  margin-left: 80px;
+  font-size: 14px;
+  color: #5539a8;
+  font-weight: 500;
+}
+.section6_time {
+  font-size: 11px;
+  color: #5539a8;
+  font-weight: 500;
+  border-radius: 20px;
+  border-style: none;
+  padding: 0px 5px;
+  margin-bottom: 10px;
+}
+
+.section6_button {
+  margin: 30px;
+  margin-left: 45%;
+  padding: 5px 20px;
+  border-color: #4f33a3;
+  color: #4f33a3;
+  border-radius: 26px;
+}
+
+footer {
+  padding: 50px;
+  display: inline-flex;
+  gap: 50px;
+}
+.footer_list {
+  list-style-type: none;
+  padding-inline-start: inherit;
+}
+.footer_mid {
+  width: 300px;
+}
+.footer_button {
+  background-color: #2639ed;
+  margin-top: 20px;
+  color: white;
+  padding: 2px 15px;
+  border-radius: 16px;
+}
